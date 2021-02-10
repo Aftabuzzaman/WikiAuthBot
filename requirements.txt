@@ -1,4 +1,0 @@
-discord
-tinydb
-fuzzywuzzy
-bs4
