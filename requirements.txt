@@ -2,3 +2,6 @@ discord
 tinydb
 fuzzywuzzy
 bs4
+mwouth
+config
+
