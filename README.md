@@ -8,3 +8,4 @@ Else, you will need to generate an OAuth grant for enwiki/Miraheze, put the enwi
 m2nsec as well as change the OAuth URI redirects to your own landing page.
 
 TL;DR, a lot of this is hardcoded, but in the event of my death, at least it's not a complete recreation.
+For full documentation, go to https://meta.wikimedia.org/wiki/Discord#WikiAuthBot
