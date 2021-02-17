@@ -1,0 +1,56 @@
+{
+    "_default": {
+        "1": {
+            "lang": "EN",
+            "Welcome": "Welcome",
+            "2auth": "! If you would like to authenticate (validate) your Wikipedia account, please type **.auth**",
+            "Hello": "Hello",
+            "pmoff": "You have private messages disabled",
+            "pmoff2": ", please enable them by clicking the arrow next to GUILDNAME and selecting *Privacy Settings*. Then type **.auth** again.",
+            "pmauth": "To authenticate to your Wikimedia account, please follow this link:",
+            "Commands:": "Commands:",
+            "hauth": "**.auth** - authenticate your account to Wikimedia",
+            "hwho": "**.whois *userid*** - enter the Discord user id to see the associated account of a verified user",
+            "predID": "",
+            "postID": "",
+            "authas": "authenticated as User:",
+            "Registered:": "Registered:",
+            "Home:": "Home:",
+            "Total_edits:": "Total edits:",
+            "Edits:": "Edits:",
+            "Groups:": "Groups:",
+            "gGroups:": "Global groups:",
+            "max8": "Only up to 10 max listed. Click their name at the top to see all info.",
+            "hwho2": "To use this command, type **.whois *userid***",
+            "notauthd": "That user does not appear to be authenticated.",
+            "needmanser": "You need to have **manage server** access in order to use this command.",
+            "alrauth": "You are already authenticated to User:",
+            "alrauth2": ", nothing further is required.",
+            "sellang": "Please select from the following languages",
+            "errlang": "I could not find that language, for new languages contact IVORK#0001 else choose from the following",
+            "langset": "language has been set to",
+            "aroleset": "Successfully set authenticated role to",
+            "checku": "Checking users",
+            "cantass": "I don't appear to have access to assign this role. Please ensure that my WikiAuth role is above",
+            "cantass2": "in the server roles list so that I can have access, also that I have *manage_roles* access. Once you've made the changes, simply use the same command again to attempt to re-assign the r$
+            "havass": "I have assigned the ROLENAME role to COUNT/LENMESSAGEGUILDMEMBERS user(s) that are already authenticated.",
+            "nfindrole": "I could not find the role MESCONTSPLI1. To use this command, please either tag it, or paste its ID.",
+            "etagid": "To use this command, please either tag it, or paste its ID.",
+            "cantsend": "I cannot send messages in CHANNAME, please enable me send_messages permissions and use the command again. For persistant issues, contact IVORK#0001.",
+            "ssetachan": "Successfully set CHANNAME as the authentication messages channel. To disable, type *.setachan none*.",
+            "sremwchan": "Successfully removed welcome channel. Use **.setwchan *channeltag/channelid*** to set it again.",
+            "cfchan": "I could not find SPLITTOID. Please ensure the ID is correct and that I have permissions to see the channel.",
+            "sremachan": "Successfully removed authentication channel. Use **.setachan *channeltag/channelid*** to set it again.",
+            "hsetwchan": "To use this command, type **.setwchan #general** or ***221049808784326656*** or use ***none*** to disable.",
+            "ssetwchan": "Successfully set CHANNAME as the welcome channel. To disable, type *.setwchan none*.",
+            "helpcommands": "**.status** - check the status of the bot's host\n**.setlang *Language*** - choose server language from the following: AVAILLANG\n**.setachan *#auth-channel*** or ***channel id*** -$
+            "invt": "To invite this bot to your own server, use the following link",
+            "Cantfindusedisplayorid": "I couldn't find a user by the name of *unam*. Make sure you are using their display name, or use their UserID.",
+            "YN2B": "Please enter a value of either **yes** or **no** for whether you want to allow blocked users to authenticate.",
+            "YNBS": "Successfully set disallowing of blocked members authenticating to **VAL**.",
+            "BlockAuth": "Sorry, you could not be authenticated in the **GUILDNAME** server as they don't allow blocked users to authenticate which your account **UNAM** appears to be. Please try again once unb$
+            "YN2M": "Please enter a value of either **W** for Wikipedia, **M** for Miraheze or **F** for Fandom.",
+            "YNMS": "Server type set to **VAL**"
+        }
+    }
+}
