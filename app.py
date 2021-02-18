@@ -32,7 +32,7 @@ def wauth_oauth(discid):
         except:
             return '''<h1>Error</h1> The values provided do not coincide with a successful login, please try again or contact IVORK#0001 on discord.'''
         else:
-            return '''<h1>Thanks! Your request has been successfully processed.</h1>You may now close this window as WikiAuthBot should message you back momentarily.<meta http-equiv="refresh" content="2;url=https://meta.wikimed$
+            return '''<h1>Thanks! Your request has been successfully processed.</h1>You may now close this window as WikiAuthBot should message you back momentarily.<meta http-equiv="refresh" content="2;url=https://meta.wikikimedia.org/wiki/Discord#WikiAuthBot" />'''
 
 @app.route('/mauth/<discid>/') 
 def mauth_oauth(discid):
@@ -49,7 +49,7 @@ def mauth_oauth(discid):
         except:
             return '''<h1>Error</h1> The values provided do not coincide with a successful login, please try again or contact IVORK#0001 on discord.'''
         else:
-            return '''<h1>Thanks! Your request has been successfully processed.</h1>You may now close this window as WikiAuthBot should message you back momentarily.<meta http-equiv="refresh" content="2;url=https://meta.wikimed$
+            return '''<h1>Thanks! Your request has been successfully processed.</h1>You may now close this window as WikiAuthBot should message you back momentarily.<meta http-equiv="refresh" content="2;url=https://meta.wikikimedia.org/wiki/Discord#WikiAuthBot" />'''
 
 @app.route('/test/')
 def index():
