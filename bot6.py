@@ -1317,7 +1317,7 @@ async def on_message(message):
         await rchan(f'{text}\n{damsg}')
     
     if message.content =='.invite':
-        invlink = 'https://discord.com/oauth2/authorize?client_id=625962497165230080&permissions=2416183360&scope=bot%20applications.commands'
+        invlink = 'https://discord.com/api/oauth2/authorize?client_id=625962497165230080&permissions=2416298048&scope=applications.commands%20bot'
         await message.author.create_dm()
         try:
             await message.author.dm_channel.send(f'{t["invt"]}: <{invlink}>')
