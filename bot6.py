@@ -1,4 +1,4 @@
-import discord, discord.utils, asyncio, requests, bs4, datetime, os, time, aiohttp, re, sys , logging
+import discord, discord.utils, asyncio, requests, bs4, datetime, os, time, aiohttp, re, sys
 from discord.ext import commands
 from discord.utils import get
 from discord.utils import find
@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup as bsw
 from time import gmtime, strftime
 
 #logging.basicConfig(level=logging.INFO)
-
+#logging.basicConfig(filename=f'''WAB.log''', filemode='w', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
 
 intents = discord.Intents(messages=True, guilds=True, members=True)
 intents.typing = True
@@ -138,7 +138,10 @@ async def on_member_join(member):
                 except:
                     print(f'Get channel history failed for {member.guild}')
                 if found == 0:
-                    await client.get_channel(gdb.search(Ft.id==member.guild.id)[0]['achan']).send(f"{t['predID']}<@{member.id}> {tauthas}{mem['wnam']} {t['postID']}")
+                    try:
+                        await client.get_channel(gdb.search(Ft.id==member.guild.id)[0]['achan']).send(f"{t['predID']}<@{member.id}> {tauthas}{mem['wnam']} {t['postID']}")
+                    except:
+                       print(f"Couldn't post welcome message for {member.guild}")
                 else:
                     try:
                         await fmsg.edit(content=f"{t['predID']}<@{member.id}> {tauthas}{mem['wnam']} {t['postID']}")
@@ -155,10 +158,10 @@ async def on_member_join(member):
                     try:
                         await member.create_dm()
                         if tdb.search(Ft.id==member.id) == []:
-                            msg = await member.dm_channel.send(f"{t['Welcome']} {member.display_name}{t2auth}")
+                            msg = await member.dm_channel.send(f"{t['Welcome']} {member.mention}{t2auth}")
                             await msg.add_reaction(emoji = '👋')
                         else:
-                            msg = await member.dm_channel.send(f"{t['Welcome']} {member.display_name}! {t['alrauth']}{tdb.search(Ft.id==member.id)[0]['wnam']}{t['alrauth2']}")
+                            msg = await member.dm_channel.send(f"{t['Welcome']} {member.mention}! {t['alrauth']}{tdb.search(Ft.id==member.id)[0]['wnam']}{t['alrauth2']}")
                             await msg.add_reaction(emoji = '👋')
                     except:
                         print(f'Cant welcome {member.display_name} in {member.guild.name}')
@@ -166,10 +169,10 @@ async def on_member_join(member):
                     chanz = client.get_channel(gdb.search(Ft.id==member.guild.id)[0]['wmsgs'])
                     if member.guild.id != 697848129185120256:
                         if tdb.search(Ft.id==member.id) == []:
-                            msg = await chanz.send(f"{t['Welcome']} {member.display_name}{t2auth}")
+                            msg = await chanz.send(f"{t['Welcome']} {member.mention}{t2auth}")
                             await msg.add_reaction(emoji = '👋')
                         else:
-                            msg = await chanz.send(f"{t['Welcome']} {member.display_name}! {t['alrauth']}{tdb.search(Ft.id==member.id)[0]['wnam']}{t['alrauth2']}")
+                            msg = await chanz.send(f"{t['Welcome']} {member.mention}! {t['alrauth']}{tdb.search(Ft.id==member.id)[0]['wnam']}{t['alrauth2']}")
                             await msg.add_reaction(emoji = '👋')
                     else:
                         if tdb.search(Ft.id==member.id) == []:
