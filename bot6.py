@@ -613,6 +613,8 @@ async def on_message(message):
             gdb.upsert({'mira':1, 'id':message.guild.id},Ft.id==message.guild.id)
             valr = '<:mirahezelogo:446641749142798339> Miraheze'
         elif val == 'f':
+            await rply(message, "Sorry, Fandom is no longer supported.")
+            return
             gdb.upsert({'mira':2, 'id':message.guild.id},Ft.id==message.guild.id)
             valr = '<:Fandom:760427808069255170> Fandom' 
         await rply(message, t['YNMS'].replace("VAL", valr))
