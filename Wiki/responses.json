@@ -898,7 +898,7 @@
             "predID": "",
             "postID": "",
             "authas": "右のユーザー名として認証されました:",
-            "Registered:": "登録済み:",
+            "Registered:": "登録日:",
             "Home:": "ホーム:",
             "Total_edits:": "総編集数:",
             "Edits:": "編集数:",
@@ -915,11 +915,11 @@
             "langset": "次の言語に設定されました:",
             "aroleset": "次の認証ロールに設定することに成功しました。",
             "checku": "ユーザーの確認",
-            "cantass": "このロールを割り当てるためのアクセス権が無いようです。WikiAuthBotロールが上記の状態か確認してください。",
+            "cantass": "このロールを割り当てるためのアクセス権限が無いようです。WikiAuthBotの権限が上記の状態か確認してください。",
             "cantass2": "サーバーのロールリストで、WikiAuthBotをアクセス可能に設定し、加えて *manage_roles* のアクセス権を許可してください。変更後は、同じコマンドを再度使用して、認証された全てのメンバーにロールを再割り当てしてください。繰り返し発生する場合は、IVORK#0001 までお問い合わせください。",
             "havass": "認証済みの COUNT/LENMESSAGEGUILDMEMBERS ユーザーに ROLENAME ロールを割り当てました。",
             "nfindrole": "ロール MESCONTSPLI1 が見つかりませんでした。このコマンドを使用するには、タグを付けるか、IDを貼り付けてください。",
-            "etagid": "このコマンドを使用するには、タグを付けるか、IDを貼り付けてください。",
+            "etagid": "このコマンドを使用するには、チャンネル名(#example)又はチャンネルIDを貼り付けてください。",
             "cantsend": "CHANNAME でメッセージを送信できません。send_messages 権限を有効にして、再度コマンドを使用してください。継続的な問題については、IVORK#0001 までお問い合わせください。",
             "ssetachan": "CHANNAME を認証メッセージチャンネルとして設定しました。無効にするには、*.setachan none* と入力してください。",
             "sremwchan": "ウェルカムチャンネルを削除しました。再度設定するには**.setwchan *channeltag/channelid*** を使用してください。",
@@ -927,14 +927,14 @@
             "sremachan": "認証チャンネルを削除しました。再度設定するには **.setachan *channeltag/channelid*** を使用してください。",
             "hsetwchan": "このコマンドを使用するには、**.setwchan #general** または ***221049808784326656*** と入力するか、***none*** を使用して無効にします。",
             "ssetwchan": "CHANNAME をウェルカムチャンネルとして設定しました。無効にするには、*.setwchan none* と入力してください。",
-            "helpcommands": "**.status** - WikiAuthBotのサーバーの状態を確認します。 *Language*** - サーバーの言語を以下から選択します。AVAILLANG\n**.setachan *#auth-channel*** or ***channel id*** - WikiAuthBotが認証メッセージを投稿するチャンネルを設定します。\n**.setrole *@authrole*** or ***role id*** - 認証されたユーザーに割り当てられるロールを設定します。 CURROLE\n**.setwchan *#general*** or ***channel id*** - CURWCHANにウェルカムメッセージを投稿するチャンネルを設定します。\n**.setblock *Y*** or ***N*** - ブロックされたユーザーの認証を禁止します。 CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - Wikipedia、Miraheze、Fandomのどのサーバーで認証するか設定します。 CURSMIRA\n**.invite** - WikiAuthBotを自分のサーバーに招待するためのURLを取得します。",
+            "helpcommands": "**.status** - WikiAuthBotのサーバーの状態を確認します。 \n**.setlang *Language** - サーバーの言語を以下から選択します。AVAILLANG\n**.setachan *#auth-channel*** or ***channel id*** - WikiAuthBotが認証メッセージを投稿するチャンネルを設定します。\n**.setrole *@authrole*** or ***role id*** - 認証されたユーザーに割り当てられるロールを設定します。 CURROLE\n**.setwchan *#general*** or ***channel id*** - ウェルカムメッセージを投稿するチャンネルを設定します。CURWCHAN \n**.setblock *Y*** or ***N*** - ブロックされたユーザーの認証を禁止します。 CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - Wikipedia、Miraheze、Fandomのどのサーバーで認証するか設定します。 CURSMIRA\n**.invite** - WikiAuthBotを自分のサーバーに招待するためのURLを取得します。",
             "invt": "WikiAuthBotを自分のサーバーに招待するには、次のURLを使用します。",
             "Cantfindusedisplayorid": "*unam* という名前のユーザーが見つかりませんでした。ユーザーの表示名を使用しているか、ユーザーIDを使用しているかを確認してください。",
             "YN2B": "ブロックされたユーザーの認証を許可するかどうか、**yes**または**no**のいずれかの値を入力してください。",
             "YNBS": "ブロックされたメンバーの認証を許可しないことを **VAL** に設定しました。",
             "BlockAuth": "申し訳ありませんが、**GUILDNAME**サーバーではブロックされたユーザーの認証が許可されていないため、あなた（アカウント**UNAM**）は認証されませんでした。管理者に問い合わせ、ブロック解除後に再度お試しください。",
             "YN2M": "Wikipediaは**W**、Mirahezeは**M**、Fandomは**F**のいずれかの値を入力してください。",
-            "YNMS": "サーバータイプが **VAL** に変更されました。"
+            "YNMS": "認証サーバーを **VAL** に変更しました。"
         }        
     }
 }
