@@ -3,7 +3,7 @@
         "1": {
             "lang": "EN",
             "Welcome": "Welcome",
-            "2auth": "! If you would like to authenticate (validate) your Wikipedia account, please type **.auth**",
+            "2auth": "! If you would like to authenticate (validate) your Wikimedia account, please type **.auth**",
             "Hello": "Hello",
             "pmoff": "You have private messages disabled",
             "pmoff2": ", please enable them by clicking the arrow next to GUILDNAME and selecting *Privacy Settings*. Then type **.auth** again.",
