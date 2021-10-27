@@ -2,7 +2,6 @@ import discord, discord.utils, asyncio, requests, bs4, datetime, os, time, aioht
 from discord.ext import commands
 from discord.utils import get
 from discord.utils import find
-from tinydb import TinyDB, Query
 from dateutil import parser
 from tinydb import TinyDB, Query
 from fuzzywuzzy import process, fuzz
