@@ -2,6 +2,10 @@ from discord import Client, Intents, Embed
 from discord_slash import SlashCommand, SlashContext
 from discord_slash.utils.manage_commands import create_option, create_choice
 from tinydb import TinyDB, Query
+from fuzzywuzzy import process, fuzz
+import pickle, codecs
+from bs4 import BeautifulSoup as bsw
+from time import gmtime, strftime
 
 bot = Client(intents=Intents(messages=True, guilds=True, members=True, typing=True, presences=False))
 slash = SlashCommand(bot, sync_commands=True)
