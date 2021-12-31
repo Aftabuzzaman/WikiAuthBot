@@ -148,9 +148,9 @@ async def on_member_join(member):
                         pass
             if gdb.search(Ft.id==member.guild.id)[0]['wmsgs'] != 'N':
                 if ismira == 1:
-                    t2auth = t['2auth'].replace('Wikimedia','Miraheze')
+                    t2auth = t['2auth'].replace('Wikipedia','Miraheze')
                 elif ismira == 2:
-                    t2auth = t['2auth'].replace('Wikimedia','Fandom')
+                    t2auth = t['2auth'].replace('Wikipedia','Fandom')
                 else:
                     t2auth = t['2auth']
                 if gdb.search(Ft.id==member.guild.id)[0]['wmsgs'] == 555:
