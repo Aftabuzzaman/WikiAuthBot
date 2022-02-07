@@ -1,5 +1,4 @@
-{"_default": {
-    "16": {
+{
         "lang": "CS",
         "Welcome": "Vítejte",
         "2auth": "! Chcete-li ověřit svůj účet na Wikipedii, napište **.auth**",
@@ -50,5 +49,4 @@
         "BlockAuth": "Je mi líto, na serveru **GUILDNAME** vás nelze ověřit, protože neumožňuje ověření zablokovanýcm uživatelům, kterým se váš účet **UNAM** zdá být. Po odblokování to zkuste znovu.",
         "YN2M": "Zadejte hodnotu buď **W** pro Wikipedii, **M** pro Miraheze nebo **F** pro Fandom.",
         "YNMS": "Typ serveru nastaven na **VAL**"
-    }
-}}
+}

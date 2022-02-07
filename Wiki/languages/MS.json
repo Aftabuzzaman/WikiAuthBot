@@ -1,5 +1,4 @@
-{"_default": {
-    "13": {
+{
         "lang": "MS",
         "Welcome": "Selamat Datang",
         "2auth": "! Jika anda mahu mengesahkan akaun Wikipedia anda, sila taip **.auth**",
@@ -50,5 +49,4 @@
         "BlockAuth": "Minta maaf, anda tidak boleh disahkan dalam pelayan **GUILDNAME** kerana mereka tidak membenarkan pengguna tersekat untuk mengesahkan diri, dan nampak gaya akaun anda, **UNAM** telah disekat. Sila cuba semula setelah dinyahsekat.",
         "YN2M": "Sila masukkan sama ada **W** untuk Wikipedia, **M** untuk Miraheze atau **F** untuk Fandom.",
         "YNMS": "Jenis pelayan ditetapkan kepada **VAL**"
-    }
-}}
+}

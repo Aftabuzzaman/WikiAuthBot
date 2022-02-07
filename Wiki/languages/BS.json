@@ -1,5 +1,4 @@
-{"_default": {
-    "7": {
+{
         "lang": "BS",
         "Welcome": "Dobro došli,",
         "2auth": "! Da biste potvrdili svoj račun na Wikipediji, upišite **.auth**",
@@ -51,4 +50,3 @@
         "YN2M": "Please enter a value of either **W** for Wikipedia, **M** for Miraheze or **F** for Fandom.",
         "YNMS": "Server type set to **VAL**"
     }
-}}

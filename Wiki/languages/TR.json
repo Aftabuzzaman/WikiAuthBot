@@ -1,5 +1,4 @@
-{"_default": {
-    "17": {
+{
         "lang": "TR",
         "Welcome": "Hoş geldiniz",
         "2auth": "! Vikipedi hesabınızı doğrulamak isterseniz lütfen **.auth** yazın.",
@@ -50,5 +49,4 @@
         "BlockAuth": "**UNAM** isimli hesabınız doğrulanamıyor; çünkü **GUILDNAME** sunucusunda engellenmiş kullanıcıların doğrulanması devre dışı bırakılmış. Lütfen engeliniz kaldırıldıktan sonra tekrar deneyin.",
         "YN2M": "Lütfen geçerli bir değer girin. Vikipedi için **W**, Miraheze için **M**, Fandom için **F** değerini girin.",
         "YNMS": "Sunucu doğrulama türü **VAL** olarak ayarlandı."
-    }
-}}
+}

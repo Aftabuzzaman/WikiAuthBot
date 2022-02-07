@@ -1,5 +1,4 @@
-{"_default": {
-    "15": {
+{
         "lang": "PL",
         "Welcome": "Witaj",
         "2auth": "Jeżeli chcesz uwierzytelnić (potwierdzić) swoje konto Wikimedia, wpisz **.auth**",
@@ -50,5 +49,4 @@
         "BlockAuth": "Przepraszamy, nie mogłeś zostać uwierzytelniony na serwerze **GUILDENAME**, ponieważ nie dopuszcza się uwierzytelniania zablokowanych użytkowników, a Twoje konto **UNAM** na takie wygląda. Spróbuj ponownie, kiedy blokada nie będzie obowiązywała.",
         "YN2M": "Podaj wartość **W** jak Wikipedia, **M** jak Miraheze lub *F* jak Fandom.",
         "YNMS": "Typ serwera ustawiono jako **VAL**"
-    }
-}}
+}

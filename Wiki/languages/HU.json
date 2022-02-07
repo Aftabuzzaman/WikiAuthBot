@@ -1,5 +1,4 @@
-{"_default": {
-    "19": {
+{
         "lang": "HU",
         "Welcome": "Üdvözöllek, ",
         "2auth": "! Ha hitelesíteni szeretnéd a Wikimédia-fiókodat, kérlek, írd be a **.auth** parancsot!",
@@ -50,5 +49,4 @@
         "BlockAuth": "Sajnálom, a(z) **GUILDNAME** szerveren nem tudtad hitelesíteni a fiókodat, mivel a(z) **UNAM** fiókod épp blokkolva van. A blokk lejárta után ismét megpróbálhatod a hitelesítést.",
         "YN2M": "Kérlek, írj be egy érvényes értéket: **W** a Wikipédiához, **M** a Miraheze-hez, **F** a Fandomhoz.",
         "YNMS": "Szerver típusa átállítva: **VAL**"
-    }
-}}
+}
