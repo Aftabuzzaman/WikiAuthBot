@@ -9,8 +9,6 @@
     "Commands:": "Commandes:",
     "hauth": "**.auth** - Authentification de votre compte Discord via OAuth.",
     "hwho": "**.whois *userid*** - Vérification  du compte Wikimedia associé à un compte Discord (utilisation de l'ID de l'utilisateur accessible en mode développeur).",
-    "predID": "",
-    "postID": "",
     "authas": "vérifié comme Utilisateur:",
     "Registered:": "Enregistré le:",
     "Home:": "Wiki d’origine:",
@@ -43,10 +41,5 @@
     "ssetwchan": "Définissez CHANNAME comme canal de bienvenue. Pour désactiver, tapez *.setwchan none*.",
     "helpcommands": "**.status** - Vérification de l'état de fonctionnement du serveur sur lequel fonctionne le bot \n**.setlang *Language*** - Sélection de la langue du serveur parmi les suivantes: AVAILLANG \n**.setachan *#auth-channel*** ou ***channel id*** - Définition du canal dans lequel le bot envoie les messages de vérification des Utilisateurs CURACHAN \n**.setrole *@authrole*** ou ***role id*** - définir le rôle à attribuer aux utilisateurs authentifiés CURROLE \n**.setwchan *#general* **ou*** channel id*** - définition du rôle attribué aux utilisateurs authentifiés CURWCHAN\n**.setblock *yes*** or ***no*** - disallows blocked users to authenticate CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - set server authentication type for Wikimedia or Miraheze or Fandom CURSMIRA\n**.invite** - obtenir un lien pour inviter ce bot sur votre propre serveur",
     "invt": "Pour inviter ce bot sur votre propre serveur, utilisez le lien suivant",
-    "Cantfindusedisplayorid": "Je n'ai pas trouvé d'utilisateur du nom de *unam*. Assurez-vous que vous utilisez leur nom d'affichage ou utilisez leur ID utilisateur.",
-    "YN2B": "",
-    "YNBS": "",
-    "BlockAuth": "",
-    "YN2M": "",
-    "YNMS": ""
+    "Cantfindusedisplayorid": "Je n'ai pas trouvé d'utilisateur du nom de *unam*. Assurez-vous que vous utilisez leur nom d'affichage ou utilisez leur ID utilisateur."
 }
