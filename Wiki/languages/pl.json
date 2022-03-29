@@ -9,8 +9,6 @@
         "Commands:": "Polecenia:",
         "hauth": "**.auth** - uwierzytelnij swoje konto Wikimedia",
         "hwho": "**.whois *userid*** - podaj ID użytkownika, aby zobaczyć powiązane konto zweryfikowanego użytkownika",
-        "predID": "",
-        "postID": "",
         "authas": "uwierzytelniony jako Użytkownik:",
         "Registered:": "Zarejestrowany/-a:",
         "Home:": "Macierzysta wiki:",
