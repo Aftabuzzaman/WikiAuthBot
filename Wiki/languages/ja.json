@@ -9,8 +9,6 @@
         "Commands:": "コマンド:",
         "hauth": "**.auth** -  Wikimedia のアカウントであなたを認証します。",
         "hwho": "**.whois *userid*** - DiscordユーザーIDを入力すると、認証済みユーザーの関連アカウントが表示されます。",
-        "predID": "",
-        "postID": "",
         "authas": "右のユーザー名として認証されました:",
         "Registered:": "登録日:",
         "Home:": "ホーム:",
