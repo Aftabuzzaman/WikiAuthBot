@@ -43,10 +43,5 @@
         "ssetwchan": "Kanal CHANNAME postavljen je za poruke dobrodošlice. Da biste to opozvali, upišite *.setwchan none*.",
         "helpcommands": "**.status** – provjerite status bota\n**.setlang *jezik*** – izaberite jedan od sljedećih jezika: AVAILLANG\n**.setachan *#kanal-za-potvrdu-računa*** ili ***ID_kanala*** – postavite kanal u koji će bot slati poruke o potvrdi računa CURACHAN\n**.setrole *@uloga_za_potvrđene*** ili ***ID_uloge*** – postavite ulogu koja će se dodijeliti potvrđenim korisnicima CURROLE\n**.setwchan *#opšti*** ili ***ID_kanala*** – postavite kanal u koji će bot slati poruke dobrodošlice CURWCHAN\n**.setblock *yes*** or ***no*** - disallows blocked users to authenticate CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - set server authentication type for Wikimedia or Miraheze or Fandom CURSMIRA\n**.invite** – dobijte link za pozivanje bota na svoj server",
         "invt": "Da biste pozvali bota na svoj server, koristite slj - DSOC Knowledgebase - Confluenceedeći link",
-        "Cantfindusedisplayorid": "Nisam mogao pronaći korisnika po imenu *unam*. Obavezno koristite njihovo prikazno ime ili koristite njihov UserID.",
-        "YN2B": "",
-        "YNBS": "",
-        "BlockAuth": "",
-        "YN2M": "",
-        "YNMS": ""
+        "Cantfindusedisplayorid": "Nisam mogao pronaći korisnika po imenu *unam*. Obavezno koristite njihovo prikazno ime ili koristite njihov UserID."
     }
