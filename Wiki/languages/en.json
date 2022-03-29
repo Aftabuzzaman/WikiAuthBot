@@ -9,8 +9,6 @@
         "Commands:": "Commands:",
         "hauth": "**.auth** - authenticate your account to Wikimedia",
         "hwho": "**.whois *userid*** - enter the Discord user id to see the associated account of a verified user",
-        "predID": "",
-        "postID": "",
         "authas": "authenticated as User:",
         "Registered:": "Registered:",
         "Home:": "Home:",
