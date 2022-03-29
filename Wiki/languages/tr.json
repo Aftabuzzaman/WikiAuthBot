@@ -9,8 +9,6 @@
         "Commands:": "Komutlar:",
         "hauth": "**.auth** - Wikimedia hesabınızı doğrular",
         "hwho": "**.whois *kullanıcı ID*** - doğrulanmış hesabı görmek için Discord kullanıcı ID'nizi girin",
-        "predID": "",
-        "postID": "",
         "authas": "doğrulandı Kullanıcı:",
         "Registered:": "Katılma tarihi:",
         "Home:": "Ana hesap:",
