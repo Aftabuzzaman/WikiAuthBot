@@ -9,8 +9,6 @@
         "Commands:": "Příkazy:",
         "hauth": "**.auth** - ověřte svůj Wikimedia účet",
         "hwho": "**.whois *userid*** - zadejte ID Discord uživatele k prohlédnutí přidruženého účtu ověřeného uživatele",
-        "predID": "",
-        "postID": "",
         "authas": "ověřen jako Uživatel:",
         "Registered:": "Registrováno:",
         "Home:": "Domovská wiki:",
