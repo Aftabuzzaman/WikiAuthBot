@@ -9,8 +9,6 @@
         "Commands:": "Parancsok:",
         "hauth": "**.auth** - Wikimédia-fiók hitelesítése",
         "hwho": "**.whois *userid*** - a Discord-fiókhoz társított fiók ellenőrzése",
-        "predID": "",
-        "postID": "",
         "authas": "hitelesítve mint Szerkesztő:",
         "Registered:": "Regisztráció ideje:",
         "Home:": "Elsődleges wiki:",
