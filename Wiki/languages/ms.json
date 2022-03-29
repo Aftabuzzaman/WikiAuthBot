@@ -9,8 +9,6 @@
         "Commands:": "Perintah:",
         "hauth": "**.auth** - sahkan akaun anda ke Wikimedia",
         "hwho": "**.whois *userid*** - masukkan ID pengguna Discord untuk melihat akaun yang berkenaan dengan seorang pengguna yang telah disahkan",
-        "predID": "",
-        "postID": "",
         "authas": "disahkan sebagai Pengguna:",
         "Registered:": "Berdaftar pada:",
         "Home:": "Utama:",
