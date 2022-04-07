@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"lang": "DE",
 	"Welcome": "Willkommen",
 	"2auth": "! Wenn du dein Wikipedia-Benutzerkonto bestätigen möchstest, schreibe bitte **.auth**",
 	"Hello": "Hallo",
