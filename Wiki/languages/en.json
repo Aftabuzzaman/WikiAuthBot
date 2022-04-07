@@ -1,5 +1,4 @@
 {
-        "lang": "EN",
         "Welcome": "Welcome",
         "2auth": "! If you would like to authenticate (validate) your Wikimedia account, please type **.auth**",
         "Hello": "Hello",
@@ -35,7 +34,7 @@
         "cantsend": "I cannot send messages in CHANNAME, please enable me send_messages permissions and use the command again. For persistent issues, contact IVORK#0001.",
         "ssetachan": "Successfully set CHANNAME as the authentication messages channel. To disable, type *.setachan none*.",
         "sremwchan": "Successfully removed welcome channel. Use **.setwchan *channeltag/channelid*** to set it again.",
-        "cfchan": "I could not find SPLITTOID. Please ensure the ID is correct and that I have permissions to see the channel.",
+        "cfchan": "I could not find SPLITTOID. Please ensure the channel id is correct and that I have permissions to see the channel.",
         "sremachan": "Successfully removed authentication channel. Use **.setachan *channeltag/channelid*** to set it again.",
         "hsetwchan": "To use this command, type **.setwchan #general** or ***221049808784326656*** or use ***none*** to disable.",
         "ssetwchan": "Successfully set CHANNAME as the welcome channel. To disable, type *.setwchan none*.",
