@@ -2,7 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"lang": "JA",
 	"Welcome": "ようこそ。",
 	"2auth": "! Wikipedia アカウントを認証(検証)したい場合は、次のように入力してください。 **.auth**",
 	"Hello": "こんにちは。",
