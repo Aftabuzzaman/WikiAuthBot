@@ -39,7 +39,7 @@
 	"cantsend": "Je ne peux pas envoyer de messages dans CHANNAME, veuillez m’activer les autorisations send_messages et utiliser la commande à nouveau. Pour les problèmes persistants, contactez IVORK#0001.",
 	"ssetachan": "Définissez CHANNAME comme canal des messages d’authentification. Pour le désactiver, tapez *.setachan none*.",
 	"sremwchan": "Le canal de bienvenue a bien été supprimé. Utilisez **.setwchan *channeltag/channelid*** pour le régler à nouveau.",
-	"cfchan": "Je n’ai pas trouvé SPLITTOID. Veuillez vous assurer que l’ID est correct et que j’ai l'autorisation de voir le canal.",
+	"cfchan": "Je n’ai pas trouvé SPLITTOID. Veuillez vous assurer que l’identifiant du canal est correct et que je dispose des droits pour voir ce canal.",
 	"sremachan": "Le canal  d’authentification a bien été supprimé. Utilisez **.setachan *channeltag/channelid*** pour le définir à nouveau.",
 	"hsetwchan": "Pour utiliser cette commande, tapez **.setwchan #general **ou*** 221049808784326656*** ou utilisez ***none*** pour le désactiver.",
 	"ssetwchan": "Définissez CHANNAME comme canal de bienvenue. Pour le désactiver, tapez *.setwchan none*.",

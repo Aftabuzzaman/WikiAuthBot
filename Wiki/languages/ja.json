@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Omotecho"
+		]
 	},
 	"Welcome": "ようこそ。",
 	"2auth": "! Wikipedia アカウントを認証(検証)したい場合は、次のように入力してください。 **.auth**",
@@ -10,7 +12,7 @@
 	"pmauth": " Wikimedia アカウントを認証するには、次のリンクをクリックしてください:",
 	"Commands:": "コマンド:",
 	"hauth": "**.auth** -  Wikimedia のアカウントであなたを認証します。",
-	"hwho": "**.whois *userid*** - DiscordユーザーIDを入力すると、認証済みユーザーの関連アカウントが表示されます。",
+	"hwho": "**.whois *userid*** - Discordユーザーidを入力すると、認証済みユーザーの関連アカウントを閲覧。",
 	"authas": "右のユーザー名として認証されました:",
 	"Registered:": "登録日:",
 	"Home:": "ホーム:",
@@ -41,8 +43,8 @@
 	"sremachan": "認証チャンネルを削除しました。再度設定するには **.setachan *channeltag/channelid*** を使用してください。",
 	"hsetwchan": "このコマンドを使用するには、**.setwchan #general** または ***221049808784326656*** と入力するか、***none*** を使用して無効にします。",
 	"ssetwchan": "CHANNAME をウェルカムチャンネルとして設定しました。無効にするには、*.setwchan none* と入力してください。",
-	"helpcommands": "**.status** - WikiAuthBotのサーバーの状態を確認します。 \n**.setlang *Language** - サーバーの言語を以下から選択します。AVAILLANG\n**.setachan *#auth-channel*** or ***channel id*** - WikiAuthBotが認証メッセージを投稿するチャンネルを設定します。\n**.setrole *@authrole*** or ***role id*** - 認証されたユーザーに割り当てられるロールを設定します。 CURROLE\n**.setwchan *#general*** or ***channel id*** - ウェルカムメッセージを投稿するチャンネルを設定します。CURWCHAN \n**.setblock *Y*** or ***N*** - ブロックされたユーザーの認証を禁止します。 CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - Wikipedia、Miraheze、Fandomのどのサーバーで認証するか設定します。 CURSMIRA\n**.invite** - WikiAuthBotを自分のサーバーに招待するためのURLを取得します。",
-	"invt": "WikiAuthBotを自分のサーバーに招待するには、次のURLを使用します。",
+	"helpcommands": "**.status** - WikiAuthBotのサーバーの状態を確認します。 \n**.setlang *Language** - サーバーの言語を以下から選択。AVAILLANG\n**.setachan *#auth-channel*** or ***channel id*** - WikiAuthBotが認証メッセージを投稿するチャンネルを以下から設定。CURACHAN\n**.setrole *@authrole*** or ***role id*** - 認証されたユーザーに割り当てられるロールを設定。 CURROLE\n**.setwchan *#general*** or ***channel id*** - ウェルカムメッセージを投稿するチャンネルを設定。CURWCHAN \n**.setblock *Y*** or ***N*** - ブロックされたユーザーの認証を禁止。 CURSBLOCK\n**.settype *W*** or ***M*** or ***F*** - Wikipedia、Miraheze、Fandomのどのサーバーで認証するか設定。 CURSMIRA\n**.invite** - このボット（WikiAuthBot）を自分のサーバーに招待するリンクを取得。",
+	"invt": "WikiAuthBotを自分のサーバーに導入するには、次のリンクを使用します。",
 	"Cantfindusedisplayorid": "*unam* という名前のユーザーが見つかりませんでした。ユーザーの表示名を使用しているか、ユーザーIDを使用しているかを確認してください。",
 	"YN2B": "ブロックされたユーザーの認証を許可するかどうか、**yes**または**no**のいずれかの値を入力してください。",
 	"YNBS": "ブロックされたメンバーの認証を許可しないことを **VAL** に設定しました。",
