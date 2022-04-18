@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Brettchenweber"
+		]
 	},
 	"Welcome": "Willkommen",
 	"2auth": "! Wenn du dein Wikipedia-Benutzerkonto bestätigen möchstest, schreibe bitte **.auth**",
@@ -22,7 +24,7 @@
 	"hwho2": "Um diesen Befehl zu nutzen, schreibe **.whois *userid***",
 	"notauthd": "Dieser Nutzer scheint nicht bestätigt zu sein.",
 	"needmanser": "Du benötigst **Server-verwalten**-Rechte, um diesen Befehl zu nutzen.",
-	"alrauth": "Du bist bereits als Benutzer:",
+	"alrauth": "Du bist bereits als Benutzer authentifiziert:",
 	"alrauth2": " authentifiziert, es ist nichts weiter erforderlich.",
 	"sellang": "Bitte wähle eine der folgenden Sprachen aus",
 	"errlang": "Ich konnte diese Sprache nicht finden, für neue Sprachen kontaktiere bitte IVORK#0001, sonst wähle eine der folgenden",
